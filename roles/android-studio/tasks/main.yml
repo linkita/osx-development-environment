@@ -1,7 +1,7 @@
 ---
 - name: Install Android Studio
   mac_pkg: pkg_type=app
-           url=https://dl.google.com/dl/android/studio/install/1.1.0/android-studio-ide-135.1740770-mac.dmg
-           archive_type=dmg archive_path='Android Studio.app'
+           url=https://dl.google.com/dl/android/studio/ide-zips/2.1.1.0/android-studio-ide-143.2821654-mac.zip
+           archive_type=zip archive_path='Android Studio.app'
   become: yes
 
