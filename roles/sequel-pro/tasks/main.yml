@@ -1,0 +1,7 @@
+---
+- name: install sequel pro
+  mac_pkg: pkg_type=app
+           url=https://github.com/sequelpro/sequelpro/releases/download/release-1.1/sequel-pro-1.1.dmg
+           archive_type=dmg archive_path='Sequel Pro.app'
+  become: yes
+

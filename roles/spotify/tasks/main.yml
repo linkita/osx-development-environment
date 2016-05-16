@@ -1,0 +1,8 @@
+---
+- name: install spotify
+  mac_pkg: pkg_type=app
+           url=https://download.spotify.com/Spotify.dmg
+               archive_type=dmg archive_path=Spotify.app
+  become: yes
+
+

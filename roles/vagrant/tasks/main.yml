@@ -1,0 +1,7 @@
+---
+- name: install vagrant
+  mac_pkg: pkg_name=com.vagrant.vagrant pkg_version=1.8.1
+           url=https://releases.hashicorp.com/vagrant/1.8.1/vagrant_1.8.1.dmg
+           archive_type=dmg archive_path=Vagrant.pkg
+  become: yes
+
