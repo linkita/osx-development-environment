@@ -1,6 +1,6 @@
 ---
 - name: install macports
   mac_pkg: pkg_name=org.macports.MacPorts pkg_version=1.0
-           url=https://distfiles.macports.org/MacPorts/MacPorts-2.3.4-10.11-ElCapitan.pkg
+           url=https://distfiles.macports.org/MacPorts/MacPorts-2.3.4-10.12-Sierra.pkg
   become: yes
 

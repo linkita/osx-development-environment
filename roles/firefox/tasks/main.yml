@@ -1,6 +1,6 @@
 ---
 - name: install firefox
   mac_pkg: pkg_type=app
-           url=https://download.mozilla.org/?product=firefox-42.0-SSL&os=osx&lang=en-US
+           url=https://download-installer.cdn.mozilla.net/pub/firefox/releases/53.0/mac/es-ES/Firefox%2053.0.dmg
            archive_type=dmg archive_path='Firefox.app'
   become: yes

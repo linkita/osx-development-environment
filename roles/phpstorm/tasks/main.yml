@@ -1,6 +1,6 @@
 ---
 - name: install php storm ide 10
   mac_pkg: pkg_type=app
-           url=http://download.jetbrains.com/webide/PhpStorm-10.0.3-custom-jdk-bundled.dmg
+           url=https://download-cf.jetbrains.com/webide/PhpStorm-2017.1.3.dmg
            archive_type=dmg archive_path='PhpStorm.app'
   become: yes

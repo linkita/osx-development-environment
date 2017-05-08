@@ -14,6 +14,11 @@ $ sudo easy_install pip
 ```Shell
 $ sudo pip install ansible --quiet
 ```
+If you have troubles installing Ansible on MacOS Sierra, try:
+
+```Shell
+$ sudo pip install git+http://github.com/ansible/ansible.git@devel
+```
 
 ### Step 2: Download the project
 ```Shell
